@@ -1,0 +1,28 @@
+{% load static %}
+{% include 'website/core/head.html' %}  
+    <body class="sb-nav-fixed">        
+            {% include 'website/core/header.html' %}
+            <div id="">                    
+                <div id="">
+                    <main>
+                        <div class="container px-4" style="margin-top:80px">
+                            <h1 class="mt-4">
+                                {% block p-title %}
+                                
+                                {% endblock %}
+                            </h1>
+                            {% block breadcrumbs %}
+
+                            {% endblock %}
+                            
+                            {% block main %}
+                            
+                            {% endblock %}
+                        </div>
+                    </main>
+                    {% include 'website/core/footer.html' %}
+                </div>              
+            </div>                    
+            {% include 'website/core/bottomScripts.html' %}
+    </body>
+</html>

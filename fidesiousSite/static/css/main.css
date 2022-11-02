@@ -1,0 +1,30 @@
+@font-face {
+    font-family: 'Muli';
+    src: url("/static/fonts/muli.regular.ttf");
+}
+
+@font-face {
+    font-family: 'Open Sans';
+    src: url("/static/fonts/OpenSans-VariableFont_wdth.ttf");
+}
+
+.icon-shadow {
+    box-shadow: 0 10px 30px 0 rgb(49 52 57 / 30%), 0 10px 30px rgb(0 0 0 / 8%);
+}
+
+.head-bar-icons {
+    color: grey;
+}
+
+body, #images, #images a {
+    font-family: 'Muli';
+    src: url("/static/muli.regular.ttf");
+}
+
+.head-bar-txt {
+    font-family: 'Open Sans', sans-serif;
+    font-size: .8rem;
+    color: whitesmoke;
+    padding-left: 1em;
+    border: none;
+}
